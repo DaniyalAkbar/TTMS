@@ -45,6 +45,8 @@
             this.addATimeTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewTimeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.timeSlotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.daysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +70,9 @@
             this.menuClasses,
             this.teachersToolStripMenuItem,
             this.subjectsToolStripMenuItem,
-            this.timeTableToolStripMenuItem});
+            this.timeTableToolStripMenuItem,
+            this.timeSlotToolStripMenuItem,
+            this.daysToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -88,14 +92,14 @@
             // addAClassToolStripMenuItem
             // 
             this.addAClassToolStripMenuItem.Name = "addAClassToolStripMenuItem";
-            this.addAClassToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.addAClassToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.addAClassToolStripMenuItem.Text = "Add a Class";
             this.addAClassToolStripMenuItem.Click += new System.EventHandler(this.addAClassToolStripMenuItem_Click);
             // 
             // viewClassesToolStripMenuItem
             // 
             this.viewClassesToolStripMenuItem.Name = "viewClassesToolStripMenuItem";
-            this.viewClassesToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.viewClassesToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.viewClassesToolStripMenuItem.Text = "View Classes";
             // 
             // teachersToolStripMenuItem
@@ -110,14 +114,14 @@
             // addATeacherToolStripMenuItem
             // 
             this.addATeacherToolStripMenuItem.Name = "addATeacherToolStripMenuItem";
-            this.addATeacherToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addATeacherToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.addATeacherToolStripMenuItem.Text = "Add a Teacher";
             this.addATeacherToolStripMenuItem.Click += new System.EventHandler(this.addATeacherToolStripMenuItem_Click);
             // 
             // viewTeachersToolStripMenuItem
             // 
             this.viewTeachersToolStripMenuItem.Name = "viewTeachersToolStripMenuItem";
-            this.viewTeachersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewTeachersToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.viewTeachersToolStripMenuItem.Text = "View Teachers";
             // 
             // subjectsToolStripMenuItem
@@ -132,13 +136,13 @@
             // addASubjectToolStripMenuItem
             // 
             this.addASubjectToolStripMenuItem.Name = "addASubjectToolStripMenuItem";
-            this.addASubjectToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.addASubjectToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.addASubjectToolStripMenuItem.Text = "Add a Subject";
             // 
             // viewSubjectsToolStripMenuItem
             // 
             this.viewSubjectsToolStripMenuItem.Name = "viewSubjectsToolStripMenuItem";
-            this.viewSubjectsToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.viewSubjectsToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.viewSubjectsToolStripMenuItem.Text = "View Subjects";
             // 
             // timeTableToolStripMenuItem
@@ -153,14 +157,26 @@
             // addATimeTableToolStripMenuItem
             // 
             this.addATimeTableToolStripMenuItem.Name = "addATimeTableToolStripMenuItem";
-            this.addATimeTableToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.addATimeTableToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.addATimeTableToolStripMenuItem.Text = "Add a Time Table";
             // 
             // viewTimeToolStripMenuItem
             // 
             this.viewTimeToolStripMenuItem.Name = "viewTimeToolStripMenuItem";
-            this.viewTimeToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.viewTimeToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.viewTimeToolStripMenuItem.Text = "View Time Table";
+            // 
+            // timeSlotToolStripMenuItem
+            // 
+            this.timeSlotToolStripMenuItem.Name = "timeSlotToolStripMenuItem";
+            this.timeSlotToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.timeSlotToolStripMenuItem.Text = "Time Slot";
+            // 
+            // daysToolStripMenuItem
+            // 
+            this.daysToolStripMenuItem.Name = "daysToolStripMenuItem";
+            this.daysToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.daysToolStripMenuItem.Text = "Days";
             // 
             // MenuSections
             // 
@@ -199,6 +215,8 @@
         private System.Windows.Forms.ToolStripMenuItem addATimeTableToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewTimeToolStripMenuItem;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ToolStripMenuItem timeSlotToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem daysToolStripMenuItem;
     }
 }
 
